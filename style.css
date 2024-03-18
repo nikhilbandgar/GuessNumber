@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(209, 207, 203);
+}
+
+.header {
+    height: 5vh;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 5vh;
+    font-size: 3vh;
+}
+
+.instruct {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.instruct p {
+    padding: 1vh 0;
+}
+
+.main .label {
+    padding: 5vh;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#number {
+    height: 8vh;
+    width: 20vw;
+    position: relative;
+    left: 40vw;
+    background-color: floralwhite;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.guessSubmit {
+    height: 5vh;
+    width: 8vw;
+    position: relative;
+    top: 20px;
+    left: 46.3vw;
+    border-radius: 20px;
+    background-color: rgba(67, 63, 63, 0.422);
+    color: aliceblue;
+}
+
+#guess {
+    font-size: 17px;
+    position: relative;
+    top: 50px;
+    left: 600px;
+}
+
+#remaining_guess {
+    font-size: 17px;
+    position: relative;
+    top: 70px;
+    left: 590px;
+}
+
+.loworhigh {
+    font-size: 23px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#newGame {
+    font-size: 23px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: cornflowerblue;
+}
